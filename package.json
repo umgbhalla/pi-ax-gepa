@@ -1,0 +1,25 @@
+{
+  "name": "pi-ax-gepa",
+  "version": "0.1.0",
+  "description": "Pi extension: GEPA-optimized per-model prompts + XML tool calling via Ax",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "train": "tsx scripts/train.ts",
+    "test": "tsx scripts/test-extension.ts"
+  },
+  "dependencies": {
+    "@ax-llm/ax": "^14.0.0"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": ">=0.50.0"
+  },
+  "devDependencies": {
+    "@mariozechner/pi-coding-agent": "^0.54.0",
+    "@sinclair/typebox": "^0.34.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

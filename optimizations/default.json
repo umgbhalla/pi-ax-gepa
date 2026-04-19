@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "bestScore": 0.75,
+  "instruction": "Default fallback instruction",
+  "demos": [
+    {
+      "traces": [
+        {
+          "task": "Fix the bug in auth.ts",
+          "toolsUsed": [
+            "read",
+            "edit",
+            "bash"
+          ],
+          "flowPattern": "iterative-fix"
+        }
+      ]
+    }
+  ],
+  "modelConfig": {
+    "temperature": 0.3
+  },
+  "optimizerType": "GEPA",
+  "converged": true
+}

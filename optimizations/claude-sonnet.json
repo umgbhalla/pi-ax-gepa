@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "bestScore": 0.92,
+  "instruction": "You are a precise coding assistant. Always read files before editing. Use grep to search, not manual scanning. Execute tests after changes.",
+  "demos": [
+    {
+      "traces": [
+        {
+          "task": "Fix the bug in auth.ts",
+          "toolsUsed": [
+            "read",
+            "edit",
+            "bash"
+          ],
+          "flowPattern": "iterative-fix"
+        }
+      ]
+    }
+  ],
+  "modelConfig": {
+    "temperature": 0.3
+  },
+  "optimizerType": "GEPA",
+  "converged": true
+}
